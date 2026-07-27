@@ -1,6 +1,5 @@
 ---
 title: "Curriculum Vitae"
-pagetitle: "CV — Saugat Khanal"
 description: "Education, research appointments, honors, skills, and service."
 page-layout: article
 ---

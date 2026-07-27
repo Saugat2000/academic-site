@@ -1,6 +1,5 @@
 ---
 title: "Conferences"
-pagetitle: "Conferences — Saugat Khanal"
 description: "SAEA 2026 in Louisville, Kentucky and WAEA 2026 in Flagstaff, Arizona."
 page-layout: article
 ---

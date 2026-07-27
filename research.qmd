@@ -1,6 +1,5 @@
 ---
 title: "Research"
-pagetitle: "Research — Saugat Khanal"
 description: "Spatial errors-in-variables models, kriging, Bayesian inference with INLA, and climate–yield estimation."
 page-layout: article
 ---

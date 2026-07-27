@@ -10,6 +10,7 @@ website:
   site-url: https://saugat2000.github.io/academic-site/
   favicon: assets/images/favicon.svg
   open-graph: true
+  search: false
   navbar:
     title: "Saugat Khanal"
     pinned: false

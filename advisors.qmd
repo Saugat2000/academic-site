@@ -1,6 +1,5 @@
 ---
 title: "Advisors"
-pagetitle: "Advisors — Saugat Khanal"
 description: "Dr. Dayton Lambert and Dr. Courtney Bir, Department of Agricultural Economics, Oklahoma State University."
 page-layout: article
 ---
@@ -18,7 +17,7 @@ doctoral level, and Dr. Courtney Bir during the Master's degree.
   <div>
     <img class="person__photo" src="assets/images/lambert.jpg"
          alt="Saugat Khanal with Dr. Dayton Lambert at the SAEA 2026 Annual Meeting">
-    <div class="person__caption">With Dr. Dayton Lambert, SAEA Annual Meeting,<br>Louisville, Kentucky, 2026.</div>
+    <div class="person__caption">With Dr. Dayton Lambert, SAEA Annual Meeting, Louisville, Kentucky, 2026.</div>
   </div>
   <div>
     <h2 class="person__name">Dr. Dayton Lambert</h2>
@@ -44,7 +43,7 @@ doctoral level, and Dr. Courtney Bir during the Master's degree.
   <div>
     <img class="person__photo" src="assets/images/bir.jpg"
          alt="Saugat Khanal with Dr. Courtney Bir at his Master's thesis defense">
-    <div class="person__caption">With Dr. Courtney Bir, Master's thesis defense,<br>Oklahoma State University, March 2025.</div>
+    <div class="person__caption">With Dr. Courtney Bir, Master's thesis defense, Oklahoma State University, March 2025.</div>
   </div>
   <div>
     <h2 class="person__name">Dr. Courtney Bir</h2>

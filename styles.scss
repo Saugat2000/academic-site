@@ -198,6 +198,9 @@ hr {
   gap: 3.5rem;
   align-items: center;
   padding: 3.25rem 0 3.5rem;
+  // The contour surface is deliberately wider than its column; clip rather
+  // than let it push a horizontal scrollbar onto the page.
+  overflow-x: clip;
 }
 
 .hero__name {
@@ -222,11 +225,15 @@ hr {
   margin-top: 1.35rem;
 }
 
+// Quarto stamps a `.figure` class onto <figure> elements, and `figure.figure`
+// outranks a bare class selector — so match specificity here.
+figure.hero__figure,
 .hero__figure {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
 }
 
 // The contour surface sits behind the portrait. Nested irregular closed
@@ -247,6 +254,9 @@ hr {
   z-index: 1;
   width: 100%;
   max-width: 300px;
+  // `height: auto` is required: the img's height attribute is a presentational
+  // hint that otherwise pins the box and defeats aspect-ratio.
+  height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center 18%;
@@ -358,9 +368,11 @@ hr {
 // Method / expertise cards
 // ==========================================================================
 
+// Two columns divides evenly for both card sets on the site (4 on the home
+// page, 8 on research), so no row ever ends with an exposed empty cell.
 .method-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1px;
   background: $line;
   border: 1px solid $line;
@@ -415,6 +427,7 @@ hr {
 
 .person__photo {
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border: 1px solid $line;
@@ -454,8 +467,11 @@ hr {
 
 .gallery img {
   width: 100%;
+  height: auto;
   aspect-ratio: 3 / 2;
   object-fit: cover;
+  // Source frames are mostly portrait; bias the crop upward to keep faces in.
+  object-position: center 28%;
   border: 1px solid $line;
   background: $paper-2;
   display: block;
@@ -586,9 +602,10 @@ main.content > * { animation: rise 0.5s ease both; }
     padding-top: 2.25rem;
   }
   .hero__figure { order: -1; align-items: flex-start; }
-  .contours { inset: -14% -12% auto -12%; }
+  .contours { inset: -12% auto auto -6%; width: 112%; }
   .person { grid-template-columns: 1fr; gap: 1.35rem; }
   .person__photo { max-width: 260px; }
+  .method-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 600px) {

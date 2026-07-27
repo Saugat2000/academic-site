@@ -1,6 +1,5 @@
 ---
 title: "Publications"
-pagetitle: "Publications — Saugat Khanal"
 description: "Peer-reviewed publications, manuscripts under review, and conference presentations."
 page-layout: article
 ---

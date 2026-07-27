@@ -1,6 +1,5 @@
 ---
 title: "Courses"
-pagetitle: "Courses — Saugat Khanal"
 description: "Graduate and undergraduate coursework in agricultural economics, econometrics, and statistics."
 page-layout: article
 ---

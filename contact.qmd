@@ -1,6 +1,5 @@
 ---
 title: "Contact"
-pagetitle: "Contact — Saugat Khanal"
 description: "Email and academic profiles for Saugat Khanal, Oklahoma State University."
 page-layout: article
 ---

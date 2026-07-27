@@ -3,11 +3,15 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
+  # Quarto rewrites the gh-pages branch on every deploy, so CNAME has to be
+  # copied from source each build or the custom domain gets dropped.
+  resources:
+    - CNAME
 
 website:
   title: "Saugat Khanal"
   description: "Ph.D. student in Agricultural Economics at Oklahoma State University. Spatial econometrics, measurement error in climate data, and weather–yield modeling."
-  site-url: https://saugat2000.github.io/academic-site/
+  site-url: https://saugatkhanal.com
   favicon: assets/images/favicon.svg
   open-graph: true
   search: false

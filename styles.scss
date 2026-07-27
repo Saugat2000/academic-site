@@ -434,6 +434,15 @@ figure.hero__figure,
   background: $paper-2;
 }
 
+// Formal square headshots keep their own ratio rather than being cropped into
+// the 4:5 frame used for the candid photos. Everything else is unchanged.
+.person__photo--square { aspect-ratio: 1 / 1; }
+
+// A publication cited inside an advisor profile sits tighter than the standalone
+// list on the publications page.
+.person .pub-list { margin-top: 1.35rem; }
+.person .pub { padding-block: 0.95rem; }
+
 .person__caption {
   font-family: $font-family-monospace;
   font-size: 0.68rem;

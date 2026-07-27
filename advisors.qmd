@@ -1,6 +1,6 @@
 ---
 title: "Advisors"
-description: "Dr. Dayton Lambert and Dr. Courtney Bir, Department of Agricultural Economics, Oklahoma State University."
+description: "Dr. Dayton Lambert and Dr. Courtney Bir, Oklahoma State University, and Dr. Ujjal Tiwari, Agriculture and Forestry University."
 page-layout: article
 ---
 
@@ -8,9 +8,10 @@ page-layout: article
 <div class="eyebrow">Advisors &amp; collaborators</div>
 ```
 
-Two faculty members in the Department of Agricultural Economics at Oklahoma
-State University have shaped this research program: Dr. Dayton Lambert at the
-doctoral level, and Dr. Courtney Bir during the Master's degree.
+Three faculty advisors have shaped Khanal's research development across his
+bachelor's, master's, and doctoral training: Dr. Ujjal Tiwari at Agriculture and
+Forestry University, Dr. Courtney Bir during the master's degree, and Dr. Dayton
+Lambert at the doctoral level.
 
 ```{=html}
 <div class="person">
@@ -59,6 +60,43 @@ doctoral level, and Dr. Courtney Bir during the Master's degree.
       Plains," coauthored with Bir and Aaron Essary, currently under review at
       the <em>Journal of Agricultural and Applied Economics</em>.
     </p>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="person">
+  <div>
+    <img class="person__photo person__photo--square" src="assets/images/tiwari.jpg"
+         alt="Dr. Ujjal Tiwari, bachelor's thesis advisor at Agriculture and Forestry University">
+    <div class="person__caption">Bachelor's thesis advisor, Agriculture and Forestry University, Nepal.</div>
+  </div>
+  <div>
+    <h2 class="person__name">Dr. Ujjal Tiwari</h2>
+    <div class="person__role">Bachelor's thesis advisor &middot; Assistant Professor<br>Deputy Director, Directorate of Research and Extension (DoREX)</div>
+    <p>
+      Khanal completed his bachelor's thesis under the supervision of Dr. Ujjal
+      Tiwari in the Department of Agricultural Economics and Agribusiness
+      Management at Agriculture and Forestry University, Nepal. The research
+      examined dairy farmers' willingness to adopt cattle insurance and the
+      amount they were willing to pay for coverage in Dang, Nepal. Using survey
+      data from 150 dairy farmers and a double-hurdle model, the study evaluated
+      how socioeconomic, farm, institutional, and risk-related factors
+      influenced both insurance participation and premium decisions. The thesis
+      later contributed to the peer-reviewed article "Willingness to Pay for
+      Cattle Insurance in Nepal: A Double-Hurdle Model Perspective," published
+      in 2024.
+    </p>
+    <ul class="pub-list">
+      <li class="pub">
+        <div class="pub__year">2024</div>
+        <div>
+          <p class="pub__title">Willingness to pay for cattle insurance in Nepal: a double-hurdle model perspective</p>
+          <p class="pub__meta">Khanal, S., Tiwari, U., &amp; Khanal, S.<br><em>Global Journal of Agricultural and Allied Sciences, 5(1), 7&ndash;14</em><br><a class="pub__doi" href="https://doi.org/10.35251/gjaas.2024.002">10.35251/gjaas.2024.002</a></p>
+        </div>
+        <div class="pub__tag">Published</div>
+      </li>
+    </ul>
   </div>
 </div>
 ```

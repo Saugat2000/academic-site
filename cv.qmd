@@ -1,0 +1,156 @@
+---
+title: "Curriculum Vitae"
+pagetitle: "CV — Saugat Khanal"
+description: "Education, research appointments, honors, skills, and service."
+page-layout: article
+---
+
+```{=html}
+<div class="eyebrow">Curriculum vitae</div>
+```
+
+The full CV is embedded below and available as a PDF download. An HTML summary
+follows for readers who prefer it.
+
+```{=html}
+<a class="btn-download" href="assets/cv/Saugat_CV.pdf" download>Download PDF</a>
+```
+
+```{=html}
+<object class="pdf-embed" data="assets/cv/Saugat_CV.pdf" type="application/pdf">
+  <p>Your browser cannot display embedded PDFs.
+  <a href="assets/cv/Saugat_CV.pdf">Download the CV instead</a>.</p>
+</object>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Education</div>
+  <h2>Degrees</h2>
+</div>
+```
+
+```{=html}
+<ul class="facts">
+  <li>
+    <strong>2025 &ndash; present</strong>
+    <span><b>Ph.D., Agricultural Economics.</b> Oklahoma State University,
+    Stillwater, Oklahoma, USA.</span>
+  </li>
+  <li>
+    <strong>2023 &ndash; 2025</strong>
+    <span><b>M.S., Agricultural Economics.</b> Oklahoma State University,
+    Stillwater, Oklahoma, USA. Thesis: economic feasibility of wine grape
+    cultivation in Oklahoma.</span>
+  </li>
+  <li>
+    <strong>2018 &ndash; 2022</strong>
+    <span><b>B.Sc., Agriculture.</b> Agriculture and Forestry University,
+    Rampur, Chitwan, Nepal.</span>
+  </li>
+  <li>
+    <strong>2015 &ndash; 2017</strong>
+    <span><b>High School.</b> Times International College, Kathmandu, Nepal.</span>
+  </li>
+</ul>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Experience</div>
+  <h2>Research appointments</h2>
+</div>
+```
+
+### Graduate Research Assistant, Ph.D. level {.method__title}
+
+```{=html}
+<div class="course-block__when">Department of Agricultural Economics, Oklahoma State University &middot; August 2025 &ndash; Present</div>
+```
+
+- Research climate–yield modeling using interpolated weather predictors: temperature, precipitation, and soil moisture.
+- Develop a hierarchical spatial errors-in-variables model (HSEVM) that jointly estimates interpolation surfaces with county-level yield regressions.
+- Diagnose the Modifiable Areal Unit Problem (MAUP) and spatial support misalignment between stations and counties; quantify bias through simulation study.
+- Implement kriging and INLA-based approximate Bayesian inference; build reproducible R workflows covering data, modeling, diagnostics, and visualization.
+- Prepare manuscripts and conference submissions; manage Oklahoma weather and yield datasets with version control and replication files.
+
+### Graduate Research Assistant, Master's level {.method__title}
+
+```{=html}
+<div class="course-block__when">Department of Agricultural Economics, Oklahoma State University &middot; August 2023 &ndash; May 2025</div>
+```
+
+- Reviewed literature on the wine industry in Oklahoma.
+- Conducted research on the financial feasibility of vine production in Oklahoma.
+- Thesis: economic feasibility of wine grape cultivation in Oklahoma.
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Recognition</div>
+  <h2>Honors and awards</h2>
+</div>
+```
+
+```{=html}
+<ul class="facts">
+  <li><strong>2026</strong><span>Williams Endowed Distinguished Graduate Fellowship (DGF), Ferguson College of Agriculture, Oklahoma State University.</span></li>
+  <li><strong>2026</strong><span>Stoecker Family International Agricultural Economics Scholarship, Ferguson College of Agriculture, Oklahoma State University.</span></li>
+  <li><strong>2025</strong><span>Stoecker International Agricultural Economics Fellowship, OSU Ferguson College of Agriculture.</span></li>
+  <li><strong>2025</strong><span>Shepherd Family Memorial Endowed Scholarship, OSU Ferguson College of Agriculture.</span></li>
+  <li><strong>2025</strong><span>Williams Distinguished Graduate Fellowship (DGF), Ferguson College of Agriculture.</span></li>
+  <li><strong>2024</strong><span>Spielman Scholarship, Oklahoma State University.</span></li>
+  <li><strong>2024</strong><span>Leo and Betty Blakley Graduate Fellowship, Oklahoma State University.</span></li>
+  <li><strong>2023</strong><span>Graduate Research Assistantship, Department of Agricultural Economics, Oklahoma State University (Master's level).</span></li>
+  <li><strong>2021</strong><span>International Scientist Award (Emerging Scientist Award).</span></li>
+  <li><strong>2018</strong><span>Merit-based Scholarship for B.Sc. in Agriculture, Agriculture and Forestry University, Nepal.</span></li>
+  <li><strong>2018</strong><span>Semifinalist, Asian-level Nobel Quiz Mania.</span></li>
+  <li><strong>2017</strong><span>Full Scholarship, Times International College (Higher Secondary Education).</span></li>
+  <li><strong>2016/17</strong><span>Mahatma Gandhi Scholarship Scheme.</span></li>
+</ul>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Toolkit</div>
+  <h2>Skills</h2>
+</div>
+```
+
+```{=html}
+<ul class="facts">
+  <li><strong>Programming</strong><span>STATA, SAS, R, Python, LaTeX, SPSS &mdash; econometric and statistical modeling.</span></li>
+  <li><strong>GIS</strong><span>ArcGIS &mdash; spatial data processing and analysis.</span></li>
+  <li><strong>Other</strong><span>Data coding and analysis, statistical modeling, research design.</span></li>
+</ul>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Service</div>
+  <h2>Peer review activity</h2>
+</div>
+```
+
+```{=html}
+<ul class="facts">
+  <li><strong>2026</strong><span>Reviewer, <em>Discover Agriculture</em> (Springer Nature portfolio).</span></li>
+  <li><strong>2026</strong><span>Recognized for contribution to peer review of one manuscript (Reviewer Certificate, Springer Nature).</span></li>
+</ul>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">References</div>
+  <h2>References</h2>
+</div>
+```
+
+```{=html}
+<ul class="facts">
+  <li><strong>Doctoral advisor</strong><span>Dayton Lambert, Ph.D., Professor, Department of Agricultural Economics, Oklahoma State University. <a href="mailto:dayton.lambert@okstate.edu">dayton.lambert@okstate.edu</a></span></li>
+  <li><strong>Master's advisor</strong><span>Courtney Bir, Ph.D., Associate Professor, Department of Agricultural Economics, Oklahoma State University. <a href="mailto:courtney.bir@okstate.edu">courtney.bir@okstate.edu</a></span></li>
+</ul>
+```
+
+[Full publication list](publications.qmd) &nbsp;·&nbsp;
+[Coursework](courses.qmd)

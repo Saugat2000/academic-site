@@ -1,0 +1,84 @@
+---
+title: "Conferences"
+pagetitle: "Conferences — Saugat Khanal"
+description: "SAEA 2026 in Louisville, Kentucky and WAEA 2026 in Flagstaff, Arizona."
+page-layout: article
+---
+
+```{=html}
+<div class="eyebrow">Meetings</div>
+```
+
+Conference participation during 2026, with the Southern and Western Agricultural
+Economics Association annual meetings.
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">SAEA 2026</div>
+  <h2>Southern Agricultural Economics Association</h2>
+</div>
+```
+
+```{=html}
+<p class="lede">Annual Meeting, Louisville, Kentucky. Presented "Using
+Interpolated Weather Station Data as Crop Yield Predictors Introduces
+Measurement Error," with Dayton Lambert.</p>
+```
+
+```{=html}
+<div class="gallery">
+  <img src="assets/images/saea-2026/saea-01.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 1" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-02.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 2" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-03.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 3" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-04.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 4" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-05.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 5" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-06.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 6" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-07.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 7" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-08.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 8" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-09.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 9" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-10.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 10" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-11.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 11" loading="lazy" width="900" height="600">
+  <img src="assets/images/saea-2026/saea-12.jpg" alt="SAEA 2026 Annual Meeting, Louisville, Kentucky &mdash; photo 12" loading="lazy" width="900" height="600">
+</div>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">WAEA 2026</div>
+  <h2>Western Agricultural Economics Association</h2>
+</div>
+```
+
+```{=html}
+<p class="lede">Annual Meeting, Flagstaff, Arizona.</p>
+```
+
+```{=html}
+<div class="gallery">
+  <img src="assets/images/waea-2026/waea-01.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 1" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-02.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 2" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-03.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 3" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-04.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 4" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-05.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 5" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-06.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 6" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-07.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 7" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-08.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 8" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-09.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 9" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-10.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 10" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-11.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 11" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-12.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 12" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-13.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 13" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-14.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 14" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-15.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 15" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-16.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 16" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-17.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 17" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-18.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 18" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-19.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 19" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-20.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 20" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-21.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 21" loading="lazy" width="900" height="600">
+  <img src="assets/images/waea-2026/waea-22.jpg" alt="WAEA 2026 Annual Meeting, Flagstaff, Arizona &mdash; photo 22" loading="lazy" width="900" height="600">
+</div>
+```
+
+[Publications](publications.qmd) &nbsp;·&nbsp;
+[Advisors](advisors.qmd)

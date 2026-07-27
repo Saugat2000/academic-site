@@ -1,0 +1,77 @@
+---
+title: "Courses"
+pagetitle: "Courses — Saugat Khanal"
+description: "Graduate and undergraduate coursework in agricultural economics, econometrics, and statistics."
+page-layout: article
+---
+
+```{=html}
+<div class="eyebrow">Coursework</div>
+```
+
+Graduate and undergraduate coursework, grouped by degree.
+
+```{=html}
+<div class="course-block">
+  <h3>Ph.D., Agricultural Economics</h3>
+  <div class="course-block__when">Oklahoma State University, Stillwater, OK &middot; Fall 2025 &ndash; Present</div>
+  <ul class="chips">
+    <li>Advanced Agricultural Marketing</li>
+    <li>Time Series Analysis</li>
+    <li>Mathematical Statistics I</li>
+    <li>Mathematical Statistics II</li>
+    <li>Statistics for Experimenters II</li>
+    <li>Advanced Applications of Mathematical Programming</li>
+  </ul>
+</div>
+```
+
+```{=html}
+<div class="course-block">
+  <h3>M.S., Agricultural Economics</h3>
+  <div class="course-block__when">Oklahoma State University, Stillwater, OK &middot; Fall 2023 &ndash; Spring 2025</div>
+  <ul class="chips">
+    <li>Mathematical Economics</li>
+    <li>Agricultural Marketing Policy</li>
+    <li>Applied Regression Analysis</li>
+    <li>Research Methodology</li>
+    <li>Econometric Methods</li>
+    <li>Production Economics</li>
+    <li>Primary Data Analysis</li>
+    <li>Macroeconomic Analysis</li>
+    <li>Advanced Agricultural Prices</li>
+  </ul>
+</div>
+```
+
+```{=html}
+<div class="course-block">
+  <h3>B.Sc., Agriculture</h3>
+  <div class="course-block__when">Agriculture and Forestry University, Rampur, Chitwan, Nepal &middot; 2018 &ndash; 2022</div>
+  <ul class="chips">
+    <li>Principle of Economics</li>
+    <li>Rural Sociology</li>
+    <li>Farm Management and Production Economics</li>
+    <li>Agricultural Statistics</li>
+    <li>Agricultural Marketing and Cooperatives</li>
+    <li>Agricultural Communication</li>
+    <li>Agricultural Project Planning</li>
+    <li>Agribusiness Management</li>
+  </ul>
+</div>
+```
+
+```{=html}
+<div class="course-block">
+  <h3>Relevant online coursework</h3>
+  <div class="course-block__when">External institutions</div>
+  <ul class="chips">
+    <li>Linear Regression and Modeling &middot; Duke University</li>
+    <li>Microeconomics Principles &middot; University of Illinois Urbana-Champaign</li>
+    <li>Introduction to Calculus &middot; The University of Sydney</li>
+  </ul>
+</div>
+```
+
+[Curriculum vitae](cv.qmd) &nbsp;·&nbsp;
+[Research](research.qmd)

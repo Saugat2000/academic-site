@@ -1,0 +1,217 @@
+---
+title: "Research"
+pagetitle: "Research — Saugat Khanal"
+description: "Spatial errors-in-variables models, kriging, Bayesian inference with INLA, and climate–yield estimation."
+page-layout: article
+---
+
+```{=html}
+<div class="eyebrow">Overview</div>
+```
+
+Saugat Khanal is a Ph.D. student in Agricultural Economics at Oklahoma State
+University. His research spans spatial econometrics, policy analysis,
+time-series econometrics, and risk, uncertainty, and insurance programs. His
+current work addresses interpolation-induced bias in the climate variables used
+to estimate crop yield response, developing spatial errors-in-variables models
+that correct for measurement error introduced when weather station data is
+interpolated onto county-level administrative units. He holds an M.S. in
+Agricultural Economics from Oklahoma State University and a B.Sc. in Agriculture
+from the Agriculture and Forestry University, Rampur, Nepal.
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Doctoral work</div>
+  <h2>Hierarchical Spatial Errors-in-Variables Model</h2>
+</div>
+```
+
+Khanal works under Dr. Dayton Lambert, Sparks Chair in Agricultural Sciences at
+Oklahoma State University, on a Hierarchical Spatial Errors-in-Variables Model
+(HSEVM) for crop yield estimation. The project jointly estimates kriged
+interpolation surfaces for climate variables alongside county-level yield
+regressions, using Bayesian inference through the Integrated Nested Laplace
+Approximation (INLA). Lambert has directed key modeling decisions on the
+project, including the use of county centroid polynomial coordinates as
+instruments to address the Modifiable Areal Unit Problem and spatial support
+misalignment between weather stations and county boundaries.
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Master's work</div>
+  <h2>Wine grape economics in the Southern Great Plains</h2>
+</div>
+```
+
+During his Master's degree, Khanal worked under Dr. Courtney Bir, Associate
+Professor of Agricultural Economics at Oklahoma State University. His thesis
+examined the economic feasibility of wine grape and vine production in the
+Southern Great Plains region of Oklahoma, evaluating establishment costs, yield
+expectations, and breakeven economics for prospective growers. That work
+developed into the manuscript "Economic Feasibility of Wine Grape Cultivation in
+the Southern Great Plains," coauthored with Bir and Aaron Essary, currently
+under review at the *Journal of Agricultural and Applied Economics*.
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Methods</div>
+  <h2>Modeling expertise</h2>
+</div>
+```
+
+```{=html}
+<div class="method-grid">
+  <div class="method">
+    <span class="method__index">01</span>
+    <h3 class="method__title">Spatial errors-in-variables</h3>
+    <p class="method__body">
+      Climate variables used in crop yield models are rarely observed at the
+      same spatial resolution as the outcome itself. Weather stations report
+      point measurements, while yield data is recorded at the county level,
+      creating a mismatch that ordinary regression ignores. Spatial
+      errors-in-variables models treat the interpolated climate surface as a
+      noisy proxy for the true underlying variable, explicitly modeling the
+      measurement error introduced by interpolation rather than assuming it
+      away. In the Hierarchical Spatial Errors-in-Variables Model (HSEVM), this
+      approach corrects substantial attenuation bias in temperature-related
+      yield damage estimates, strengthening the estimated effect of extreme heat
+      by more than three times relative to conventional regression.
+    </p>
+  </div>
+  <div class="method">
+    <span class="method__index">02</span>
+    <h3 class="method__title">Kriging &amp; interpolation</h3>
+    <p class="method__body">
+      Weather stations are unevenly distributed across the landscape, and most
+      econometric applications need climate values at locations where no station
+      exists, such as a county centroid. Kriging provides a statistically
+      principled way to interpolate these values, using the spatial correlation
+      structure of the observed data to predict values at unobserved locations
+      along with an estimate of prediction uncertainty. This research uses
+      kriging to construct interpolated surfaces for growing degree days,
+      killing degree days, and precipitation-based drought indices across Iowa
+      counties, then examines how the choice of interpolation method and station
+      density affects the accuracy of downstream yield regressions.
+    </p>
+  </div>
+  <div class="method">
+    <span class="method__index">03</span>
+    <h3 class="method__title">Simulation &amp; bias diagnostics</h3>
+    <p class="method__body">
+      Because the true value of an interpolated climate variable is never
+      directly observed, it is difficult to know from real data alone how much
+      bias a given modeling choice introduces. This work addresses that using
+      Monte Carlo simulation, comparing model estimates against a known "oracle"
+      data-generating process across varying station densities and replications.
+      This makes it possible to quantify how measurement error propagates
+      through a regression model under controlled conditions before applying the
+      same methods to real yield data. In the HSEVM work, simulations spanning
+      station densities of 20, 60, and 120 per region and 1,000 replications,
+      alongside SIMEX-based bias correction, characterize how much conventional
+      approaches understate climate effects on yield.
+    </p>
+  </div>
+  <div class="method">
+    <span class="method__index">04</span>
+    <h3 class="method__title">Bayesian inference (INLA)</h3>
+    <p class="method__body">
+      Fully Bayesian estimation of spatial models is often computationally
+      expensive using standard Markov Chain Monte Carlo methods, particularly
+      once a model includes both a spatial interpolation component and a
+      separate outcome regression. Integrated Nested Laplace Approximation
+      (INLA) provides a faster, deterministic approximation to the posterior
+      distribution for a broad class of latent Gaussian models, making it
+      practical to jointly estimate interpolation surfaces and yield regressions
+      within a single hierarchical framework. The HSEVM work relies on INLA with
+      the Stochastic Partial Differential Equation (SPDE) approach to represent
+      spatial random fields, allowing joint estimation to run in minutes rather
+      than hours.
+    </p>
+  </div>
+  <div class="method">
+    <span class="method__index">05</span>
+    <h3 class="method__title">Climate&ndash;yield modeling</h3>
+    <p class="method__body">
+      Climate-yield models link weather exposure, such as growing season
+      temperature and precipitation, to agricultural output, typically at the
+      county or field level. These models inform crop insurance pricing, climate
+      adaptation policy, and long-run agricultural risk assessment. This work
+      focuses specifically on how the climate data entering these models is
+      constructed, since most applications rely on interpolated weather-station
+      data without accounting for the resulting measurement error. Using
+      county-level corn yield data for Iowa from 2016 to 2024, joint estimation
+      of climate and yield is compared against the conventional two-step
+      approach of interpolating first and regressing second, finding
+      meaningfully different estimates of heat sensitivity between the two.
+    </p>
+  </div>
+  <div class="method">
+    <span class="method__index">06</span>
+    <h3 class="method__title">Time-series econometrics</h3>
+    <p class="method__body">
+      Beyond spatial applications, this work uses time-series methods to study
+      macroeconomic relationships that unfold over years or decades. This
+      includes cointegration analysis and error-correction modeling, which
+      distinguish between long-run equilibrium relationships among variables and
+      short-run deviations from that equilibrium. In a manuscript on U.S. inward
+      foreign direct investment, an Autoregressive Distributed Lag (ARDL)
+      error-correction framework separates the long-run relationship between
+      macroeconomic conditions and FDI inflows from short-run adjustment
+      dynamics, using a parsimonious dynamic specification to keep the model
+      interpretable while still capturing meaningful adjustment behavior.
+    </p>
+  </div>
+  <div class="method">
+    <span class="method__index">07</span>
+    <h3 class="method__title">Discrete choice &amp; limited dependent variable modeling</h3>
+    <p class="method__body">
+      Many questions in agricultural economics involve outcomes that are not
+      continuous: whether a farmer purchases insurance, and if so, how much
+      coverage to buy; whether a household adopts a new technology; whether a
+      producer participates in a given market at all. These questions call for
+      discrete choice and limited dependent variable models rather than standard
+      linear regression. In work on willingness to pay for cattle insurance in
+      Nepal, a double-hurdle model separately estimates the decision to
+      participate in the insurance market and, conditional on participating, the
+      amount a farmer is willing to pay, since these two decisions can be driven
+      by different factors.
+    </p>
+  </div>
+  <div class="method">
+    <span class="method__index">08</span>
+    <h3 class="method__title">Risk, uncertainty, and insurance program design</h3>
+    <p class="method__body">
+      Agricultural producers face weather and price risk that public and private
+      insurance programs are designed to manage, but the effectiveness of these
+      programs depends on how well their triggers and payouts match the risk
+      farmers actually face. This work examines that question from two
+      directions: farmer-level willingness to pay for insurance products in the
+      case of Nepali cattle insurance, and the design of rainfall index
+      insurance programs, where a mismatch between an index and a farmer's
+      actual losses, known as basis risk, can undermine the value of coverage
+      even when the underlying index is well constructed.
+    </p>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Interests</div>
+  <h2>Research interests</h2>
+</div>
+```
+
+```{=html}
+<ul class="chips">
+  <li>Policy analysis</li>
+  <li>Climate risk and agricultural productivity</li>
+  <li>Spatial econometric modeling</li>
+  <li>Measurement error and errors-in-variables models</li>
+  <li>Climate&ndash;yield modeling</li>
+  <li>Agricultural decision-making under climate uncertainty</li>
+</ul>
+```
+
+[See publications](publications.qmd) &nbsp;·&nbsp;
+[Advisors and collaborators](advisors.qmd)

@@ -1,0 +1,349 @@
+---
+title: "Publications"
+pagetitle: "Publications — Saugat Khanal"
+description: "Peer-reviewed publications, manuscripts under review, and conference presentations."
+page-layout: article
+---
+
+```{=html}
+<div class="eyebrow">Selected work</div>
+```
+
+Manuscripts currently under review appear first, followed by conference
+presentations and the full peer-reviewed record. Digital object identifiers link
+to the published version where one exists.
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Under review</div>
+  <h2>Manuscripts in review</h2>
+</div>
+```
+
+```{=html}
+<ul class="pub-list">
+  <li class="pub pub--feature">
+    <div class="pub__year">2026</div>
+    <div>
+      <p class="pub__title">Spatial Heterogeneity in Technology Adoption and Farm Sales across Market-Access Gradients</p>
+      <p class="pub__meta">Prasamsha Poudel and Saugat Khanal<br><em>Fundamental and Applied Agriculture</em></p>
+    </div>
+    <div class="pub__tag pub__tag--review">Under review</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2026</div>
+    <div>
+      <p class="pub__title">Interpolated Weather as a Generated Regressor: Measurement Error and a Spatial Errors-in-Variables Model for Crop Yields</p>
+      <p class="pub__meta">Saugat Khanal and Dayton M. Lambert<br><em>Letters in Spatial and Resource Sciences</em></p>
+    </div>
+    <div class="pub__tag pub__tag--review">Under review</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2026</div>
+    <div>
+      <p class="pub__title">Macroeconomic conditions and U.S. inward foreign direct investment: evidence from a parsimonious dynamic model</p>
+      <p class="pub__meta">Saugat Khanal, Amrit Dumre, Prasamsha Poudel<br><em>Discover Sustainability</em></p>
+    </div>
+    <div class="pub__tag pub__tag--review">Under review</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2026</div>
+    <div>
+      <p class="pub__title">Economic Feasibility of Wine Grape Cultivation in the Southern Great Plains</p>
+      <p class="pub__meta">Saugat Khanal, Courtney Bir, Aaron Essary<br><em>Journal of Agricultural and Applied Economics</em></p>
+    </div>
+    <div class="pub__tag pub__tag--review">Under review</div>
+  </li>
+</ul>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Conference</div>
+  <h2>Presentations</h2>
+</div>
+```
+
+```{=html}
+<ul class="pub-list">
+  <li class="pub">
+    <div class="pub__year">2026</div>
+    <div>
+      <p class="pub__title">Using Interpolated Weather Station Data as Crop Yield Predictors Introduces Measurement Error</p>
+      <p class="pub__meta">Khanal, S. &amp; Lambert, D.<br><em>Southern Agricultural Economics Association (SAEA) Annual Meeting, Louisville, Kentucky</em></p>
+    </div>
+    <div class="pub__tag pub__tag--presented">Presented</div>
+  </li>
+</ul>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Peer reviewed &middot; Economics</div>
+  <h2>Published articles &mdash; Economics</h2>
+</div>
+```
+
+```{=html}
+<ul class="pub-list">
+  <li class="pub">
+    <div class="pub__year">2024</div>
+    <div>
+      <p class="pub__title">Willingness to Pay for Cattle Insurance in Nepal: A Double-Hurdle Model Perspective</p>
+      <p class="pub__meta">Khanal, S., Tiwari, U., &amp; Khanal, S.<br><em>Global Journal of Agricultural and Allied Sciences, 5(1), 7-14</em><br><a class="pub__doi" href="https://doi.org/10.35251/gjaas.2024.002">10.35251/gjaas.2024.002</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2022</div>
+    <div>
+      <p class="pub__title">Multicollinearity diagnostics upon cobb-douglas production function for estimating resource use efficiency of tomato in Chitwan, Nepal</p>
+      <p class="pub__meta">Khanal, S., Lohani, S., &amp; Khanal, S.<br><em>Russian Journal of Agricultural and Socio-Economic Sciences</em></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2022</div>
+    <div>
+      <p class="pub__title">Logistic Value Chain Analysis as an Approach to Modelling Tomato Supply Chain: Structural Market Evidence from Bharatpur Metropolitan City, Chitwan, Nepal</p>
+      <p class="pub__meta">Khanal, S., Lohani, S.<br><em>Russian Journal of Agricultural and Socio-Economic Sciences, 3(123)</em><br><a class="pub__doi" href="https://doi.org/10.18551/rjoas.2022-03.01">10.18551/rjoas.2022-03.01</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2021</div>
+    <div>
+      <p class="pub__title">Farming the future: Youth enthusiasm and transforming Nepal's economy through agriculture</p>
+      <p class="pub__meta">Khanal, S., Dhital, P., &amp; Christian, S.<br><em>Journal of Agriculture, Food Systems, and Community Development, 10(2), 1-14</em><br><a class="pub__doi" href="https://doi.org/10.5304/jafscd.2021.102.027">10.5304/jafscd.2021.102.027</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2021</div>
+    <div>
+      <p class="pub__title">Cannabis legalization and potential impacts on Nepali economy and public health</p>
+      <p class="pub__meta">Khanal, S., Khanal, S., &amp; Christian, S.<br><em>Global Journal of Agricultural and Allied Sciences, 3(1), 25-28</em><br><a class="pub__doi" href="https://doi.org/10.35251/gjaas.2021.004">10.35251/gjaas.2021.004</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2021</div>
+    <div>
+      <p class="pub__title">Disparities between developed and emerging economies in digital divide and ICT gap to bring agricultural sustainability</p>
+      <p class="pub__meta">Khanal, S., Bhattarai, S. B. S., Adhikari, U., Sharma, D., &amp; Pandey, M.<br><em>Fundamental and Applied Agriculture, 6(3), 309-322</em><br><a class="pub__doi" href="https://doi.org/10.5455/faa.78371">10.5455/faa.78371</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Production, marketing, and future prospects of fish farming in Nepal: National and global scenario</p>
+      <p class="pub__meta">Khanal, S., Khatri, S., &amp; Khanal, S.<br><em>Cogent Food &amp; Agriculture, 6(1), 1860384</em><br><a class="pub__doi" href="https://doi.org/10.1080/23311932.2020.1860384">10.1080/23311932.2020.1860384</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Consumers' willingness, behaviors, and attitudes to pay a price premium for local organic foods in Nepal</p>
+      <p class="pub__meta">Khanal, S.<br><em>International Journal of Environment, Agriculture and Biotechnology, 5(3), 594-609</em><br><a class="pub__doi" href="https://doi.org/10.22161/ijeab.53.11">10.22161/ijeab.53.11</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Economics of production and marketing of cucumber in Nawalpur district of Nepal</p>
+      <p class="pub__meta">Khanal, S., Shrestha, J., &amp; Lamichhane, J.<br><em>Azarian Journal of Agriculture, 7(3), 93-101</em><br><a class="pub__doi" href="https://doi.org/10.29252/azarinj.034">10.29252/azarinj.034</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Food Supply Chain Disruptions and Resilience Under the Stress of COVID-19: Evidence from Nepal</p>
+      <p class="pub__meta">Khanal, S., Poudel, P. B., Lamichhane, J., &amp; Ajanthan, A.<br><em>Acta Scientific Agriculture, 4(7), 158-166</em><br><a class="pub__doi" href="https://doi.org/10.31080/ASAG.2020.04.0868">10.31080/ASAG.2020.04.0868</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Trade deficits impede Nepalese economic growth: an analysis from review perspective</p>
+      <p class="pub__meta">Khanal, S., &amp; Khanal, S.<br><em>International Journal of Multidisciplinary Research and Analysis, 3, 7-8</em><br><a class="pub__doi" href="https://doi.org/10.47191/ijmra/v3-i10-01">10.47191/ijmra/v3-i10-01</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2019</div>
+    <div>
+      <p class="pub__title">Agro-tourism: Prospects, importance, destinations, and challenges in Nepal</p>
+      <p class="pub__meta">Khanal, S., &amp; Shrestha, M.<br><em>Archives of Agriculture and Environmental Science, 4(4), 464-471</em><br><a class="pub__doi" href="https://doi.org/10.26832/24566632.2019.0404013">10.26832/24566632.2019.0404013</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+</ul>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Peer reviewed &middot; Other than Economics</div>
+  <h2>Published articles &mdash; Other than Economics</h2>
+</div>
+```
+
+```{=html}
+<ul class="pub-list">
+  <li class="pub">
+    <div class="pub__year">2022</div>
+    <div>
+      <p class="pub__title">An overview on possible management strategies for coffee white stem borer Xylotrechus quadripes Chevrolat (Coleoptera: Cerambycidae) in Nepal</p>
+      <p class="pub__meta">Pandey, M., Kayastha, P., Khanal, S., Shrestha, S., Thakur, G., Adhikari, K., ... &amp; Khanal, D.<br><em>Heliyon</em><br><a class="pub__doi" href="https://doi.org/10.1016/j.heliyon.2022.e10445">10.1016/j.heliyon.2022.e10445</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2022</div>
+    <div>
+      <p class="pub__title">Need to take precedence for off seasonal vegetable farming? Issues in context of Nepal</p>
+      <p class="pub__meta">Gyawali, P., Khanal, S., &amp; Bhandari, S.<br><em>Turkish Journal of Agriculture-Food Science and Technology, 10(12), 2495-2503</em><br><a class="pub__doi" href="https://doi.org/10.24925/turjaf.v10i12.2495-2503.4970">10.24925/turjaf.v10i12.2495-2503.4970</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2022</div>
+    <div>
+      <p class="pub__title">Trends of Major Cereal Productivity in South Asia</p>
+      <p class="pub__meta">Khanal, S., &amp; Khanal, S.<br><em>Malaysian Journal of Halal Research, 5(1), 6-16</em></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2021</div>
+    <div>
+      <p class="pub__title">Perceived attributes and adoption of Indigenous Technological Knowledge on agriculture — a case study from Bhirkot municipality of Syangja District, Nepal</p>
+      <p class="pub__meta">Khatri, S., Khanal, S., &amp; Kafle, S.<br><em>Cogent Food &amp; Agriculture, 7(1), 1914384</em><br><a class="pub__doi" href="https://doi.org/10.1080/23311932.2021.1914384">10.1080/23311932.2021.1914384</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2021</div>
+    <div>
+      <p class="pub__title">Drought stress impacts on wheat and its resistance mechanisms</p>
+      <p class="pub__meta">Rijal, B., Baduwal, P., Chaudhary, M., Chapagain, S., Khanal, S., Khanal, S., &amp; Poudel, P. B.<br><em>Malaysian Journal of Sustainable Agriculture (MJSA), 5(2), 67-76</em><br><a class="pub__doi" href="https://doi.org/10.26480/mjsa.02.2021.67.76">10.26480/mjsa.02.2021.67.76</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2021</div>
+    <div>
+      <p class="pub__title">Overview of agriculture in Nepal: Issues and future strategies</p>
+      <p class="pub__meta">Gyawali, P., &amp; Khanal, S.<br><em>Fundamental and Applied Agriculture, 6(3), 323-335</em><br><a class="pub__doi" href="https://doi.org/10.5455/faa.89753">10.5455/faa.89753</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2021</div>
+    <div>
+      <p class="pub__title">Promotion of organic and sustainable agriculture through the use of bio-fertilizers</p>
+      <p class="pub__meta">KC, B., Pandeya, B., Chanda, H., Bhusala, P., Pandita, S., &amp; Khanal, S.<br><em>Journal of Wastes and Biomass Management (JWBM), 3(1), 01-08</em></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Experimental Investigation on Phytochemical Analysis and Antibacterial Activity of Aegle Marmelos (Bael) Plants</p>
+      <p class="pub__meta">Khanal, S. K., &amp; Dawadi, K. K.<br><em>Turkish Journal of Agriculture-Food Science and Technology, 8(7), 1587-1592</em><br><a class="pub__doi" href="https://doi.org/10.24925/turjaf.v8i7.1587-1592.3469">10.24925/turjaf.v8i7.1587-1592.3469</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Insect pests and diseases of cinnamon (Cinnamomum verum Presi.) and their management in agroforestry system: A review</p>
+      <p class="pub__meta">Khan, A. U., Khan, A. U., Khanal, S., &amp; Gyawali, S.<br><em>Acta Entomology and Zoology, 1(2), 51-59</em><br><a class="pub__doi" href="https://doi.org/10.33545/27080013.2020.v1.i2a.19">10.33545/27080013.2020.v1.i2a.19</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Fall armyworm: Menace to Nepalese farming and the integrated management approaches</p>
+      <p class="pub__meta">Bista, S., Thapa, M. K., &amp; Khanal, S.<br><em>International Journal of Environment, Agriculture and Biotechnology, 5(4), 1011-1018</em><br><a class="pub__doi" href="https://doi.org/10.22161/ijeab.54.21">10.22161/ijeab.54.21</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Chrysanthemum production in Bangladesh: significance the insect pests and diseases management: A review</p>
+      <p class="pub__meta">Khan, A. U., Choudhury, M. A. R., Khan, A. U., Khanal, S., &amp; Maukeeb, A. R. M.<br><em>Journal of Multidisciplinary Applied Natural Science</em></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Integrated pest management of fall armyworm infestations in maize fields in Nepal: A review</p>
+      <p class="pub__meta">Khatri, S., Pakuwal, P., &amp; Khanal, S.<br><em>Archives of Agriculture and Environmental Science, 5(4), 583-591</em><br><a class="pub__doi" href="https://doi.org/10.26832/24566632.2020.0504023">10.26832/24566632.2020.0504023</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Biofortification of wheat: Genetic and agronomic approaches and strategies to combat Iron and Zinc deficiency</p>
+      <p class="pub__meta">Sharma, D., Ghimire, P., Bhattarai, S., Adhikari, U., Khanal, S., &amp; Poudel, P. B.<br><em>International Journal of Environment, Agriculture and Biotechnology, 5(4)</em><br><a class="pub__doi" href="https://doi.org/10.22161/ijeab.54.29">10.22161/ijeab.54.29</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Effects of plant growth regulators on growth, flowering, fruiting and fruit yield of cucumber (Cucumis sativus L.): A review</p>
+      <p class="pub__meta">Gosai, S., Adhikari, S., Khanal, S., &amp; Poudel, P. B.<br><em>Archives of Agriculture and Environmental Science, 5(3), 268-274</em><br><a class="pub__doi" href="https://doi.org/10.26832/24566632.2020.050306">10.26832/24566632.2020.050306</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Future prospects of precision agriculture in Nepal</p>
+      <p class="pub__meta">Shrestha, M., &amp; Khanal, S.<br><em>Archives of Agriculture and Environmental Science, 5(3), 397-405</em><br><a class="pub__doi" href="https://doi.org/10.26832/24566632.2020.0503023">10.26832/24566632.2020.0503023</a></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">A review on rice false smut, its distribution, identification, and management practices</p>
+      <p class="pub__meta">Dangi, B., Khanal, S., &amp; Shah, S.<br><em>Acta Scientific Agriculture, 4, 48-54</em></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+  <li class="pub">
+    <div class="pub__year">2020</div>
+    <div>
+      <p class="pub__title">Adoption of Direct Seeded Rice (DSR) over puddled-Transplanted Rice (TPR) for resource conservation and increasing wheat yield</p>
+      <p class="pub__meta">Bhandaria, S., Khanal, S., &amp; Dhakal, S.<br><em>Reviews in Food And Agriculture (RFNA), 1(2), 44-51</em></p>
+    </div>
+    <div class="pub__tag">Published</div>
+  </li>
+</ul>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Elsewhere</div>
+  <h2>Indexed profiles</h2>
+</div>
+```
+
+```{=html}
+<ul class="contact-links">
+  <li><span>Google Scholar</span> <a href="https://scholar.google.com/citations?user=a7dtE0YAAAAJ&hl=en">scholar.google.com/citations</a></li>
+  <li><span>ORCID</span> <a href="https://orcid.org/0000-0002-9146-7428">0000-0002-9146-7428</a></li>
+  <li><span>ResearchGate</span> <a href="https://www.researchgate.net/profile/Saugat-Khanal-3?ev=hdr_xprf">researchgate.net/profile/Saugat-Khanal-3</a></li>
+</ul>
+```

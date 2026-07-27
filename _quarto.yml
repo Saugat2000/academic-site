@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+
+website:
+  title: "Saugat Khanal"
+  description: "Ph.D. student in Agricultural Economics at Oklahoma State University. Spatial econometrics, measurement error in climate data, and weather–yield modeling."
+  site-url: https://saugat2000.github.io/academic-site/
+  favicon: assets/images/favicon.svg
+  open-graph: true
+  navbar:
+    title: "Saugat Khanal"
+    pinned: false
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: advisors.qmd
+        text: Advisors
+      - href: conferences.qmd
+        text: Conferences
+      - href: courses.qmd
+        text: Courses
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: |
+      Saugat Khanal &middot; Department of Agricultural Economics &middot; Oklahoma State University
+    center: |
+      [Email](mailto:saugat.khanal@okstate.edu) &middot;
+      [Google Scholar](https://scholar.google.com/citations?user=a7dtE0YAAAAJ&hl=en) &middot;
+      [ORCID](https://orcid.org/0000-0002-9146-7428) &middot;
+      [GitHub](https://github.com/Saugat2000) &middot;
+      [LinkedIn](https://www.linkedin.com/in/saugat-khanal-714090275/) &middot;
+      [ResearchGate](https://www.researchgate.net/profile/Saugat-Khanal-3?ev=hdr_xprf)
+
+format:
+  html:
+    theme: [default, styles.scss]
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    include-in-header:
+      - head.html
+    grid:
+      body-width: 980px

@@ -1,0 +1,45 @@
+---
+title: "Contact"
+pagetitle: "Contact — Saugat Khanal"
+description: "Email and academic profiles for Saugat Khanal, Oklahoma State University."
+page-layout: article
+---
+
+```{=html}
+<div class="eyebrow">Get in touch</div>
+```
+
+Email is the best way to reach me. I am glad to hear from researchers working on
+spatial econometrics, measurement error, climate–yield modeling, or agricultural
+insurance design.
+
+```{=html}
+<ul class="contact-links">
+  <li><span>Email</span> <a href="mailto:saugat.khanal@okstate.edu">saugat.khanal@okstate.edu</a></li>
+  <li><span>Email (alt)</span> <a href="mailto:ksaugat506@gmail.com">ksaugat506@gmail.com</a></li>
+  <li><span>Google Scholar</span> <a href="https://scholar.google.com/citations?user=a7dtE0YAAAAJ&hl=en">scholar.google.com/citations</a></li>
+  <li><span>ORCID</span> <a href="https://orcid.org/0000-0002-9146-7428">0000-0002-9146-7428</a></li>
+  <li><span>ResearchGate</span> <a href="https://www.researchgate.net/profile/Saugat-Khanal-3?ev=hdr_xprf">researchgate.net/profile/Saugat-Khanal-3</a></li>
+  <li><span>LinkedIn</span> <a href="https://www.linkedin.com/in/saugat-khanal-714090275/">linkedin.com/in/saugat-khanal-714090275</a></li>
+  <li><span>GitHub</span> <a href="https://github.com/Saugat2000">github.com/Saugat2000</a></li>
+</ul>
+```
+
+```{=html}
+<div class="section-head">
+  <div class="eyebrow">Where</div>
+  <h2>Department</h2>
+</div>
+```
+
+```{=html}
+<ul class="facts">
+  <li><strong>Department</strong><span>Agricultural Economics</span></li>
+  <li><strong>Institution</strong><span>Oklahoma State University</span></li>
+  <li><strong>Location</strong><span>Stillwater, Oklahoma 74075, USA</span></li>
+</ul>
+```
+
+```{=html}
+<p class="station-marker">36.114&deg; N, 97.058&deg; W &mdash; STILLWATER</p>
+```

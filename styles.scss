@@ -1,0 +1,609 @@
+/*-- scss:defaults --*/
+
+// ---- Palette -------------------------------------------------------------
+$paper:      #EDEBE2;
+$paper-2:    #E3E0D4;
+$ink:        #1E2A2E;
+$ink-soft:   #48555A;
+$moss:       #46604F;
+$moss-deep:  #2E4038;
+$gold:       #A97A2A;
+$rust:       #8A4A3B;
+$line:       rgba(30, 42, 46, 0.14);
+
+// ---- Type ----------------------------------------------------------------
+$font-family-sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-monospace:  "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+$headings-font-family:   "Fraunces", Georgia, "Times New Roman", serif;
+$font-size-root:         17px;
+$line-height-base:       1.62;
+$headings-font-weight:   560;
+$headings-line-height:   1.18;
+
+// ---- Bootstrap mapping ---------------------------------------------------
+$body-bg:            $paper;
+$body-color:         $ink;
+$link-color:         $moss;
+$link-hover-color:   $moss-deep;
+$link-decoration:    none;
+
+$navbar-bg:                     $paper;
+$navbar-fg:                     $ink;
+$navbar-hl:                     $moss;
+$navbar-light-color:            $ink-soft;
+$navbar-light-hover-color:      $moss-deep;
+$navbar-light-active-color:     $moss-deep;
+
+$footer-bg: $paper;
+$footer-fg: $ink-soft;
+
+$border-color: $line;
+$hr-color:     $line;
+$code-color:   $moss-deep;
+$code-bg:      transparent;
+
+/*-- scss:mixins --*/
+
+@mixin eyebrow-type {
+  font-family: $font-family-monospace;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/*-- scss:rules --*/
+
+// ==========================================================================
+// Base
+// ==========================================================================
+
+body {
+  background-color: $paper;
+  color: $ink;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#quarto-content main.content,
+main.content {
+  max-width: 980px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: $headings-font-family;
+  font-variation-settings: "opsz" 40;
+  color: $moss-deep;
+  letter-spacing: -0.005em;
+}
+
+h1 { font-size: clamp(2.05rem, 4.4vw, 2.85rem); font-weight: 600; font-variation-settings: "opsz" 120; }
+h2 { font-size: clamp(1.5rem, 2.9vw, 1.9rem); font-weight: 550; margin-top: 0; }
+h3 { font-size: 1.16rem; font-weight: 600; font-family: $headings-font-family; }
+
+p { color: $ink; max-width: 74ch; }
+
+a {
+  color: $moss;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(70, 96, 79, 0.32);
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  &:hover { color: $moss-deep; border-bottom-color: $gold; }
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid $gold;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $line;
+  opacity: 1;
+  margin: 3.25rem 0;
+}
+
+::selection { background: rgba(169, 122, 42, 0.24); }
+
+// ==========================================================================
+// Navbar / footer
+// ==========================================================================
+
+.navbar {
+  background-color: $paper !important;
+  border-bottom: 1px solid $line;
+  padding-block: 0.55rem;
+
+  .navbar-brand {
+    font-family: $headings-font-family;
+    font-variation-settings: "opsz" 96;
+    font-weight: 600;
+    font-size: 1.16rem;
+    color: $moss-deep !important;
+    border-bottom: 0;
+  }
+
+  .navbar-nav .nav-link {
+    @include eyebrow-type;
+    font-size: 0.665rem;
+    color: $ink-soft !important;
+    border-bottom: 1px solid transparent;
+    padding-inline: 0.7rem;
+
+    &:hover { color: $moss-deep !important; }
+    &.active { color: $moss-deep !important; border-bottom-color: $gold; }
+  }
+}
+
+.nav-footer {
+  background-color: $paper;
+  border-top: 1px solid $line;
+  color: $ink-soft;
+  font-size: 0.82rem;
+  padding-block: 1.75rem;
+
+  a { color: $ink-soft; border-bottom: 0; &:hover { color: $moss; } }
+  p { max-width: none; margin-bottom: 0; }
+}
+
+// ==========================================================================
+// Eyebrow labels — mono, uppercase, preceded by a short gold rule
+// ==========================================================================
+
+.eyebrow {
+  @include eyebrow-type;
+  color: $moss-deep;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0 0 0.85rem;
+
+  &::before {
+    content: "";
+    width: 26px;
+    height: 2px;
+    background: $gold;
+    flex: 0 0 auto;
+  }
+
+  p { margin: 0; max-width: none; }
+}
+
+.section-head {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid $line;
+}
+.section-head:first-of-type { border-top: 0; padding-top: 0; }
+
+.lede {
+  font-size: 1.1rem;
+  color: $ink-soft;
+  max-width: 68ch;
+}
+
+// ==========================================================================
+// Hero — portrait + topographic contour signature
+// ==========================================================================
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 3.5rem;
+  align-items: center;
+  padding: 3.25rem 0 3.5rem;
+}
+
+.hero__name {
+  font-size: clamp(2.4rem, 5.6vw, 3.6rem);
+  font-variation-settings: "opsz" 144;
+  font-weight: 600;
+  line-height: 1.04;
+  margin: 0.35rem 0 0.5rem;
+}
+
+.hero__role {
+  @include eyebrow-type;
+  color: $ink-soft;
+  font-size: 0.7rem;
+}
+
+.hero__tagline {
+  font-size: 1.14rem;
+  line-height: 1.6;
+  color: $ink;
+  max-width: 46ch;
+  margin-top: 1.35rem;
+}
+
+.hero__figure {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// The contour surface sits behind the portrait. Nested irregular closed
+// curves echo the kriged interpolation surfaces in the research itself.
+.contours {
+  position: absolute;
+  inset: -18% -22% auto -22%;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+  width: 144%;
+  height: auto;
+  display: block;
+}
+
+.portrait {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 18%;
+  border: 1px solid $line;
+  background: $paper-2;
+}
+
+.station-marker {
+  position: relative;
+  z-index: 1;
+  @include eyebrow-type;
+  font-size: 0.63rem;
+  letter-spacing: 0.11em;
+  text-transform: none;
+  color: $ink-soft;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+
+  &::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: $rust;
+    flex: 0 0 auto;
+  }
+}
+
+// ==========================================================================
+// Publication list — year | title+venue | status pill
+// ==========================================================================
+
+.pub-list { margin: 0; padding: 0; list-style: none; }
+
+.pub {
+  display: grid;
+  grid-template-columns: 4.2rem minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid $line;
+}
+
+.pub:first-child { border-top: 1px solid $line; }
+
+.pub__year {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  color: $ink-soft;
+  padding-top: 0.18rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.pub__title {
+  font-family: $headings-font-family;
+  font-variation-settings: "opsz" 30;
+  font-weight: 550;
+  font-size: 1.03rem;
+  line-height: 1.34;
+  color: $ink;
+  margin: 0 0 0.28rem;
+  max-width: none;
+}
+
+.pub__meta {
+  font-size: 0.87rem;
+  color: $ink-soft;
+  margin: 0;
+  max-width: none;
+
+  em { color: $ink-soft; }
+}
+
+.pub__doi {
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgba(70, 96, 79, 0.3);
+  white-space: nowrap;
+}
+
+.pub__tag {
+  @include eyebrow-type;
+  font-size: 0.6rem;
+  padding: 0.26rem 0.62rem;
+  border: 1px solid $moss;
+  border-radius: 999px;
+  color: $moss;
+  white-space: nowrap;
+  margin-top: 0.18rem;
+  justify-self: end;
+}
+
+.pub__tag--review    { border-color: $rust; color: $rust; }
+.pub__tag--presented { border-color: $gold; color: $gold; }
+
+// The featured manuscript sits above everything else on the page.
+.pub--feature {
+  background: $paper-2;
+  border-top: 1px solid $line;
+  padding-inline: 1.35rem;
+
+  .pub__title { font-size: 1.16rem; }
+}
+
+// ==========================================================================
+// Method / expertise cards
+// ==========================================================================
+
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1px;
+  background: $line;
+  border: 1px solid $line;
+  margin-top: 2rem;
+}
+
+.method {
+  background: $paper;
+  padding: 1.7rem 1.6rem 1.85rem;
+}
+
+.method__index {
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: $gold;
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+.method__title {
+  font-family: $headings-font-family;
+  font-variation-settings: "opsz" 30;
+  font-size: 1.09rem;
+  font-weight: 560;
+  color: $moss-deep;
+  margin: 0 0 0.6rem;
+}
+
+.method__body {
+  font-size: 0.925rem;
+  line-height: 1.58;
+  color: $ink-soft;
+  margin: 0;
+  max-width: none;
+}
+
+// ==========================================================================
+// People (advisors), galleries, course lists, generic cards
+// ==========================================================================
+
+.person {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 2.25rem;
+  align-items: start;
+  padding: 2.25rem 0;
+  border-bottom: 1px solid $line;
+}
+.person:first-of-type { border-top: 1px solid $line; }
+
+.person__photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border: 1px solid $line;
+  background: $paper-2;
+}
+
+.person__caption {
+  font-family: $font-family-monospace;
+  font-size: 0.68rem;
+  color: $ink-soft;
+  margin-top: 0.6rem;
+  line-height: 1.45;
+}
+
+.person__name {
+  font-family: $headings-font-family;
+  font-variation-settings: "opsz" 60;
+  font-size: 1.4rem;
+  font-weight: 560;
+  color: $moss-deep;
+  margin: 0 0 0.2rem;
+}
+
+.person__role {
+  @include eyebrow-type;
+  font-size: 0.64rem;
+  color: $ink-soft;
+  margin-bottom: 1rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+  gap: 12px;
+  margin: 1.75rem 0 0;
+}
+
+.gallery img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border: 1px solid $line;
+  background: $paper-2;
+  display: block;
+}
+
+.course-block {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $line;
+}
+.course-block:first-of-type { border-top: 1px solid $line; }
+
+.course-block h3 { margin: 0 0 0.15rem; }
+
+.course-block__when {
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  color: $ink-soft;
+  margin-bottom: 0.9rem;
+}
+
+.chips { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0; padding: 0; list-style: none; }
+
+.chips li {
+  font-size: 0.86rem;
+  color: $ink-soft;
+  border: 1px solid $line;
+  border-radius: 999px;
+  padding: 0.28rem 0.72rem;
+  background: $paper-2;
+}
+
+.facts { margin: 0; padding: 0; list-style: none; }
+
+.facts li {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid $line;
+  font-size: 0.95rem;
+}
+.facts li:first-child { border-top: 1px solid $line; }
+
+.facts strong {
+  @include eyebrow-type;
+  font-size: 0.62rem;
+  color: $moss-deep;
+  font-weight: 500;
+  padding-top: 0.22rem;
+}
+
+.facts__year {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  color: $ink-soft;
+  font-variant-numeric: tabular-nums;
+}
+
+.pdf-embed {
+  width: 100%;
+  height: 860px;
+  border: 1px solid $line;
+  background: $paper-2;
+  margin-top: 1.5rem;
+}
+
+.btn-download {
+  display: inline-block;
+  @include eyebrow-type;
+  font-size: 0.66rem;
+  color: $paper;
+  background: $moss-deep;
+  border: 1px solid $moss-deep;
+  border-radius: 2px;
+  padding: 0.6rem 1.15rem;
+  margin-top: 0.4rem;
+
+  &:hover { background: $moss; border-color: $moss; color: $paper; }
+}
+
+.contact-links { margin: 0; padding: 0; list-style: none; }
+
+.contact-links li {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: baseline;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid $line;
+}
+.contact-links li:first-child { border-top: 1px solid $line; }
+
+.contact-links span {
+  @include eyebrow-type;
+  font-size: 0.62rem;
+  color: $moss-deep;
+}
+
+.contact-links a { font-size: 0.95rem; word-break: break-word; }
+
+// ==========================================================================
+// Motion — a single quiet fade on load, nothing more
+// ==========================================================================
+
+main.content > * { animation: rise 0.5s ease both; }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main.content > * { animation: none; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+// ==========================================================================
+// Responsive
+// ==========================================================================
+
+@media (max-width: 860px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    padding-top: 2.25rem;
+  }
+  .hero__figure { order: -1; align-items: flex-start; }
+  .contours { inset: -14% -12% auto -12%; }
+  .person { grid-template-columns: 1fr; gap: 1.35rem; }
+  .person__photo { max-width: 260px; }
+}
+
+@media (max-width: 600px) {
+  #quarto-content main.content, main.content { padding-inline: 1.15rem; }
+
+  .pub {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .pub__tag { justify-self: start; }
+  .pub__year { padding-top: 0; }
+
+  .facts li,
+  .contact-links li { grid-template-columns: 1fr; gap: 0.3rem; }
+
+  .gallery { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .pdf-embed { height: 520px; }
+}
